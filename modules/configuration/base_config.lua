@@ -26,14 +26,14 @@ config.checkAllValidations = false
 config.defaultProtocolVersion = 3
 --- Define path to SDL binary
 -- Example: "/home/user/sdl_build/bin"
-config.pathToSDL = ""
+config.pathToSDL = "/home/jacobkeeler/sdl_build2/bin"
 --- Define path to SDL .INI file
 config.pathToSDLConfig = ""
 --- Define path to SDL Policy database
 config.pathToSDLPolicyDB = "policy.sqlite"
 --- Define path to SDL interfaces
 -- Example: "/home/user/sdl_panasonic/src/components/interfaces"
-config.pathToSDLInterfaces = ""
+config.pathToSDLInterfaces = "/home/jacobkeeler/sdl_core2/src/components/interfaces"
 --- Define SDL modification
 config.SDL = "smartDeviceLinkCore"
 --- Flag which defines behavior of ATF on SDL crash
