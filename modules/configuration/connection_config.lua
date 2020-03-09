@@ -15,7 +15,7 @@ config.connectionTimeout = 5000
 config.remoteConnection = {}
 config.remoteConnection.enabled = true
 --- Define host for default remote connection
-config.remoteConnection.url = "192.168.1.142"
+config.remoteConnection.url = "192.168.1.131"
 config.remoteConnection.port = 5555
 config.hmiAdapterConfig = {}
 config.hmiAdapterConfig.hmiAdapterType = "WebSocket"
@@ -40,7 +40,7 @@ config.hmiAdapterConfig.Remote.WebSocketConfig.port = 8087
 --      wssCertificateCA, wssCertificateClient, wssPrivateKey)
 config.defaultMobileAdapterType = "TCP"
 --- Define host for TCP default mobile device connection
-config.mobileHost = "192.168.1.142"
+config.mobileHost = "192.168.1.246"
 --- Define port for TCP default mobile device connection
 config.mobilePort = 12345
 --- Define URL for WS default mobile device connection
@@ -70,7 +70,7 @@ config.wssPrivateKeyPath = "./data/cert/wss/client-key.pem"
 --
 
 --- Define host for SDL logs
-config.sdl_logs_host = "192.168.1.142"
+config.sdl_logs_host = "192.168.1.131"
 --- Define port for SDL logs
 config.sdl_logs_port = 6676
 
