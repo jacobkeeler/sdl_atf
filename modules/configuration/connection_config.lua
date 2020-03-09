@@ -18,7 +18,7 @@ config.remoteConnection.enabled = true
 config.remoteConnection.url = "192.168.1.131"
 config.remoteConnection.port = 5555
 config.hmiAdapterConfig = {}
-config.hmiAdapterConfig.hmiAdapterType = "WebSocket"
+config.hmiAdapterConfig.hmiAdapterType = "Remote"
 --- Define configuration parameters for HMI connection on WebSocket base
 config.hmiAdapterConfig.WebSocket = {}
 config.hmiAdapterConfig.WebSocket.url = "ws://localhost"
