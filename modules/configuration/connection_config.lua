@@ -15,7 +15,7 @@ config.connectionTimeout = 5000
 config.remoteConnection = {}
 config.remoteConnection.enabled = true
 --- Define host for default remote connection
-config.remoteConnection.url = "192.168.1.131"
+config.remoteConnection.url = "192.168.1.246"
 config.remoteConnection.port = 5555
 config.hmiAdapterConfig = {}
 config.hmiAdapterConfig.hmiAdapterType = "Remote"
@@ -54,7 +54,7 @@ config.wssMobilePort = 2020
 --
 
 --- Define host for SDL logs
-config.sdl_logs_host = "192.168.1.131"
+config.sdl_logs_host = "192.168.1.246"
 --- Define port for SDL logs
 config.sdl_logs_port = 6676
 
